@@ -522,17 +522,17 @@ ar:
         many: "%{count} موضعًا"
         other: "%{count} موضوعٍ"
       topic_stat_sentence:
-        zero: "لا مواضيع جديدة في %{unit} الماضي."
-        one: "موضوع واحد جديد في %{unit} الماضي."
-        two: "موضوعان جديدان في %{unit} الماضي."
-        few: "%{count} مواضيع جديدة في%{unit} الماضي."
-        many: "%{count} موضوعًا جديدًا في%{unit} الماضي."
-        other: "%{count} موضوع جديد في%{unit} الماضي."
+        zero: "لا مواضيع جديدة في آخر %{unit}."
+        one: "موضوع واحد جديد في آخر %{unit}."
+        two: "موضوعان جديدان في آخر %{unit}."
+        few: "%{count} مواضيع جديدة في آخر %{unit}."
+        many: "%{count} موضوعًا جديدًا في آخر %{unit}."
+        other: "%{count} موضوعٍ جديدٍ في آخر %{unit}."
 
     ip_lookup:
       title: البحث عن العناوين الرقميّة IP
       hostname: اسم المضيف
-      location: الموقع
+      location: العنوان
       location_not_found: (غيرمعرف)
       organisation: المنظمة
       phone: هاتف
@@ -745,7 +745,7 @@ ar:
       last_seen: "شوهد"
       created: "الانضمام"
       log_out: "تسجيل الخروج"
-      location: "الموقع"
+      location: "العنوان"
       card_badge:
         title: "وسام بطاقة المستخدم"
 
@@ -929,7 +929,7 @@ ar:
         title: "صورة الملفّ الشخصي"
         header_title: "الملفّ الشخصي والرسائل والمفضّلات والتفضيلات"
       title:
-        title: "العنوان"
+        title: "اللقب"
       filters:
         all: "الكل"
       stream:
@@ -2945,16 +2945,16 @@ ar:
       email:
         title: "البريد"
         settings: "إعدادات"
-        templates: "قوالب"
-        preview_digest: "معاينة."
+        templates: "القوالب"
+        preview_digest: "معاينة"
         sending_test: "إرسال بريد إلكتروني تجريبي..."
         error: "<b>خطأ</b> - %{server_error}"
-        test_error: "حدث خطأ أثناء إرسال رسالة تجريبية. الرجاء فحص إعدادات البريد الإلكتروني و التأكد من أن الاستضافة لا تمنع مرور البريد الإلكتروني والمحاولة مرة أخرى."
-        sent: "تم الإرسال"
-        skipped: "تم التجاوز"
-        bounced: "مروج"
-        received: "وارد"
-        rejected: "مرفوض"
+        test_error: "حدث خطأ أثناء إرسال رسالة تجريبية. يرجى فحص إعدادات البريد الإلكتروني و التأكد من أن الاستضافة لا تمنع مرور البريد الإلكتروني والمحاولة ثانية."
+        sent: "المُرسل"
+        skipped: "المُتخطّى"
+        bounced: "المُروج"
+        received: "المُستلَم"
+        rejected: "المرفوض"
         sent_at: "أرسلت في"
         time: "الوقت"
         user: "المستخدم"
@@ -3186,8 +3186,8 @@ ar:
         blocked: "محظور؟"
         staged: "تنظيم؟"
         show_admin_profile: "مدير"
-        edit_title: "تعديل العنوان"
-        save_title: "حفظ العنوان"
+        edit_title: "تعديل اللقب"
+        save_title: "حفظ اللقب"
         refresh_browsers: "فرض تحديث المتصفح"
         refresh_browsers_message: "الرسالة أُرسلت إلى جميع العُملاء"
         show_public_profile: "عرض الملف العام"
