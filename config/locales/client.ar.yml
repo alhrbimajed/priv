@@ -212,7 +212,7 @@ ar:
     topic_admin_menu: "عمليات المدير"
     wizard_required: "من المُستحسن البدء في إعداد منتداك الآن من خلال <a href='%{url}' data-auto-route='true'>مُرشد الإعداد</a>"
     emails_are_disabled: "لقد عَطّل أحد المدراء الرسائل البريديّة الصّادرة للجميع. لن تُرسل إشعارات عبر البريد الإلكتروني أيًا كان نوعها."
-    bootstrap_mode_enabled: "الموقع حاليًا يعمل بالطريقة التمهيديّة. لكى تتمكن من إطلاق موقعك الجديد بسهولة. سيسجل كل المستخدمين الجدد بمستوى ثقة 1 وسيكون خيار إرسال الملخّص اليومي عن طريق البريد الالكترونى مفعّل. سيتم إلغاء تفعيل الطريقة التمهيديّة تلقائيًا عندما يَتخطى عدد اﻷعضاء الرقم %{min_users}."
+    bootstrap_mode_enabled: "الموقع حاليًا في المرحلة التمهيديّة. لكى تتمكن من إطلاق موقعك الجديد بسهولة. سيسجل كل المستخدمين الجدد بمستوى ثقة 1 وسيكون خيار إرسال الملخّص اليومي عن طريق البريد الالكترونى مفعّل. سيتم إلغاء تفعيل الطريقة التمهيديّة تلقائيًا عندما يَتخطى عدد اﻷعضاء الرقم %{min_users}."
     bootstrap_mode_disabled: "سيتم إلغاء تفعيل الطريقة التمهيديّة خلال الـ 24 ساعة القادمة"
     s3:
       regions:
@@ -541,7 +541,7 @@ ar:
       username: "اسم المستخدم"
       trust_level: "TL"
       read_time: "وقت القراءة"
-      topics_entered: " مواضيع شوهدت"
+      topics_entered: "مواضيع شوهدت"
       post_count: "# مشاركات"
       confirm_delete_other_accounts: "أمتأكد من حذف هذه الحسابات؟"
 
@@ -558,7 +558,7 @@ ar:
       private_message: "رسالة"
       private_messages: "الرسائل"
       activity_stream: "النشاط"
-      preferences: " التفضيلات"
+      preferences: "التفضيلات"
       expand_profile: "توسيع"
       bookmarks: "المفضلة"
       bio: "معلومات عنّي"
@@ -725,12 +725,12 @@ ar:
         short_instructions: "يمكن للآخرين الإشارة إليك عن طريق كتابة ‍@{{username}}"
         available: "اسم المستخدم متاح."
         global_match: "البريد الإلكتروني مطابق لـ اسم المستخدم المسّجل."
-        global_mismatch: "مسجل مسبقا ، جرّب {{suggestion}}؟"
+        global_mismatch: "مسجّل مسبقًا، جرّب {{suggestion}}؟"
         not_available: "غير متاح. جرّب {{suggestion}}؟"
         too_short: "اسم المستخدم قصير جدًا"
         too_long: "اسم المستخدم طويل جدًا"
-        checking: "يتم التأكّد من توفّر اسم المستخدم..."
-        enter_email: 'تم العثور على اسم المستخدم. ادخل البريد الإلكتروني المُطابق'
+        checking: "جار التأكّد من توفّر اسم المستخدم..."
+        enter_email: 'تم العثور على اسم المستخدم. أدخل البريد الإلكتروني المُطابق'
         prefilled: "البريد الإلكتروني مُطابق لاسم المستخدم المسّجل هذا"
       locale:
         title: "لغة الواجهة"
@@ -820,7 +820,7 @@ ar:
         pending: "الدعوات معلّقة"
         pending_tab: "المعلّقة"
         pending_tab_with_count: "معلّق ({{count}})"
-        topics_entered: " مواضيع شوهدت"
+        topics_entered: "مواضيع شوهدت"
         posts_read_count: "مشاركات قُرأت"
         expired: "انتهت صلاحيّة هذه الدعوة"
         rescind: "إزالة"
@@ -934,7 +934,7 @@ ar:
         all: "الكل"
       stream:
         posted_by: "نُشرت بواسطة"
-        sent_by: " أرسلت بواسطة"
+        sent_by: "أرسلت بواسطة"
         private_message: "رسالة خاصة"
         the_topic: "الموضوع"
 
@@ -973,7 +973,7 @@ ar:
       reached: "<b>%{relativeAge}</b> – <a href='%{url}' target='_blank'>%{rate}</a> الوصول إلى الحد المسموح في إعدادات الموقع %{siteSettingRate}."
       exceeded: "<b>%{relativeAge}</b> – <a href='%{url}' target='_blank'>%{rate}</a> تجاوز الحد المسموح في إعدادات الموقع %{siteSettingRate}."
       rate:
-        zero: " لا أخطاء في %{duration}"
+        zero: "لا أخطاء في %{duration}"
         one: "خطأ واحد/%{duration}"
         two: "خطآن/%{duration}"
         few: "%{count} أخطاءٍ/%{duration}"
@@ -1038,10 +1038,10 @@ ar:
       title: "إنشاء حساب جديد"
       failed: "حدث خطأ ما، ربما هذا البريد الإلكتروني مُسجل مسبقًا، جرب رابط 'نسيت كلمة المرور'"
     forgot_password:
-      title: " إعادة تعيين كلمة المرور"
+      title: "إعادة تعيين كلمة المرور"
       action: "نسيت كلمة المرور"
       invite: "أدخل اسم المستخدم أو البريد الإلكتروني وسنقوم بإرسال بريدًا لضبط كلمة المرور من جديد."
-      reset: " إعادة ضبط كلمة المرور"
+      reset: "إعادة ضبط كلمة المرور"
       complete_username: "في حال أن حسابًا تطابق مع اسم المستخدم <b>%{username}</b>، سيتم إرسال رسالة لبريدك لإعادة ضبط كلمة المرور في القريب العاجل."
       complete_email: "في حال أن حسابًا تطابق مع البريد <b>%{email}</b>، سيتم إرسال رسالة لبريدك لإعادة ضبط كلمة المرور في القريب العاجل."
       complete_username_found: "تم العثور على حساب يُطابق اسم المستخدم <b>%{username}</b>، سيتم إرسال رسالة لبريدك لإعادة ضبط كلمة المرور في القريب العاجل."
@@ -1110,7 +1110,13 @@ ar:
       shift: 'Shift'
       ctrl: 'Ctrl'
       alt: 'Alt'
+
+    details:
+      title: "إخفاء التفاصيل"
+
     composer:
+      details_title: "ملخّص"
+      details_text: "سيكون هذا النص مخفيًا"
       emoji: "الإيموجي :)"
       more_emoji: "المزيد..."
       options: "خيارات"
@@ -1119,7 +1125,7 @@ ar:
 
       add_warning: "هذا تحذير رسمي."
       toggle_whisper: "تبديل الهمس"
-      toggle_unlisted: "تبديل غير المدرج"
+      toggle_unlisted: "إخفاء/إظهار من القائمة"
       posting_not_on_topic: "أي موضوع تود الرد عليه؟"
       saving_draft_tip: "جار الحفظ..."
       saved_draft_tip: "تم الحفظ"
@@ -1590,23 +1596,23 @@ ar:
           few: "المواضيع المثبّتة حاليًا في {{categoryLink}}: <strong class='badge badge-notification unread'>{{count}}</strong>"
           many: "المواضيع المثبّتة حاليًا في {{categoryLink}}: <strong class='badge badge-notification unread'>{{count}}</strong>"
           other: "المواضيع المثبّتة حاليًا في {{categoryLink}}: <strong class='badge badge-notification unread'>{{count}}</strong>"
-        pin_globally: " إظهار هذا الموضوع في أعلى جميع قوائم المواضيع حتّى."
+        pin_globally: "إظهار هذا الموضوع في أعلى جميع قوائم المواضيع حتّى."
         confirm_pin_globally: "لديك {{count}} مواضيع مثبتة على المستوى الكلي للموقع مما قد يشكل عبئًا على المستخدمين الجدد أو غير المسجلين. هل ترغب فعلًا بتثبيت موضوع آخر على مستوى الموقع؟"
         unpin_globally: "إزالة هذا الموضوع من أعلى كل قوائم المواضيع."
         unpin_globally_until: "إزالة هذا الموضوع من أعلى قوائم الموضوعات أو الانتظار حتّى <strong>%{until}</strong>."
         global_pin_note: "يمكن للمستخدمين إزالة تثبيت المواضيع على حدى لأنفسهم دونًا عن البقيّة."
         not_pinned_globally: "لا مواضيع مثبتة للعموم."
         already_pinned_globally:
-          zero: "مواضيع حاليًا مثبّتة عامةً: <strong class='badge badge-notification unread'>{{count}}</strong>"
-          one: "مواضيع حاليًا مثبّتة عامةً: <strong class='badge badge-notification unread'>1</strong>"
-          two: "مواضيع حاليًا مثبّتة عامةً: <strong class='badge badge-notification unread'>{{count}}</strong>"
-          few: "مواضيع حاليًا مثبّتة عامةً: <strong class='badge badge-notification unread'>{{count}}</strong>"
-          many: "مواضيع حاليًا مثبّتة عامةً: <strong class='badge badge-notification unread'>{{count}}</strong>"
-          other: "مواضيع حاليًا مثبّتة عامةً <strong class='badge badge-notification unread'>{{count}}</strong>"
+          zero: "المواضيع المثبّتة حاليًا على كامل الموقع: <strong class='badge badge-notification unread'>{{count}}</strong>"
+          one: "المواضيع المثبّتة حاليًا على كامل الموقع: <strong class='badge badge-notification unread'>1</strong>"
+          two: "المواضيع المثبّتة حاليًا على كامل الموقع: <strong class='badge badge-notification unread'>{{count}}</strong>"
+          few: "المواضيع المثبّتة حاليًا على كامل الموقع: <strong class='badge badge-notification unread'>{{count}}</strong>"
+          many: "المواضيع المثبّتة حاليًا على كامل الموقع: <strong class='badge badge-notification unread'>{{count}}</strong>"
+          other: "المواضيع المثبّتة حاليًا على كامل الموقع <strong class='badge badge-notification unread'>{{count}}</strong>"
         make_banner: "جعل هذا الموضوع إعلانًا يظهر أعلى كل الصفحات."
         remove_banner: "إزالة الإعلان الذي يظهر أعلى كل الصفحات."
         banner_note: "يستطيع المستخدمون إزالة الإعلان بإغلاقه. لا يمكن لموضعين أن يظهرا كإعلان في الوقت نفسه."
-        no_banner_exists: "لا يوجد موضوع إعلاني"
+        no_banner_exists: "لا يوجد أيّة مواضيع إعلانيّة"
         banner_exists: "يوجد <strong class='badge badge-notification unread'>بالفعل</strong> حاليًا موضوع إعلاني."
       inviting: "دعوة..."
       automatically_add_to_groups: "هذه الدعوة تشتمل أيضًا الوصول إلى هذه المجموعات:"
@@ -1950,7 +1956,7 @@ ar:
             other: "أرسل {{count}} شخصٍ رسالة لهذا المستخدم"
           bookmark:
             zero: "لم يفضّل أحد هذه المشاركة"
-            one: " فضّل شخص واحد هذه المشاركة"
+            one: "فضّل شخص واحد هذه المشاركة"
             two: "فضّل شخصان هذه المشاركة"
             few: "فضّل {{count}} أشخاصٍ هذه المشاركة"
             many: "فضّل {{count}} شخصًا هذه المشاركة"
@@ -2647,7 +2653,7 @@ ar:
         edit: "تعديل المجموعات"
         refresh: "تحديث"
         new: "جديد"
-        selector_placeholder: "ادخل اسم المستخدم"
+        selector_placeholder: "أدخل اسم المستخدم"
         name_placeholder: "اسم المجموعة، بدون مسافات. نفس قواعد اسم المستخدم"
         about: "عدّل عضوية المجموعة والأسماء هنا"
         group_members: "أعضاء المجموعة"
@@ -2779,9 +2785,9 @@ ar:
         name: "الاسم"
         none_installed: "لا يوجد إضافات مثبّتة."
         version: "الإصدار"
-        enabled: "مفعّل؟"
-        is_enabled: "Y"
-        not_enabled: "N"
+        enabled: "مفعّلة؟"
+        is_enabled: "نعم"
+        not_enabled: "لا"
         change_settings: "تغيير الإعدادات"
         change_settings_short: "الإعدادات"
         howto: "كيف أثبّت إضافة؟"
@@ -3362,8 +3368,8 @@ ar:
         search: "ابحث عن النص الذي تريد تعديله"
         title: 'محتوى النص'
         edit: 'تعديل'
-        revert: "حفظ التعديلات"
-        revert_confirm: "هل ترغب بالفعل باستعادة التغيرات؟ "
+        revert: "التراجع عن التغيرات"
+        revert_confirm: "هل ترغب بالفعل باستعادة التغيرات؟"
         go_back: "العودة إلى البحث"
         recommended: "نوصيك بتخصيص النص التالي ليلائم احتياجاتك:"
         show_overriden: 'إظهار المعدّل فقط'
@@ -3495,7 +3501,7 @@ ar:
         add_host: "أضف مضيف"
         settings: "تضمين إعدادات"
         feed_settings: "إعدادات التغذية"
-        feed_description: " توفير مغذي RSS/ATOM لموقعك سيطور قدرة Discourse على استيراد المحتوى الخاص بك."
+        feed_description: "توفير مغذي RSS/ATOM لموقعك سيطور قدرة Discourse على استيراد المحتوى الخاص بك."
         crawling_settings: "إعدادات زاحف الويب"
         crawling_description: "عندما يقوم Discourse بإنشاء مواضيع لمشاركاتك، ولم يتوفر مغذي RSS/ATOM سيحاول تحليل محتواك من HTML الخاص بك. في بعض الأحيان يكون من الصعب استخراج المحتوى، لذا نمنحك القدرة على تحديد قواعد CSS لجعل الاستخراج أسهل."
 
