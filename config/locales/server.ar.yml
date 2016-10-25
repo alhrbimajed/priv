@@ -700,11 +700,11 @@ ar:
       long_form: 'التبليغ على أنه رسالة مزعجة'
     inappropriate:
       title: 'غير مناسب'
-      description: 'هذا الموضوع يتضمّن محتوى عدائي أو سيء، أو فيه انتهاك لـ<a href="/guidelines">لإرشادات مجتمعنا</a>.'
+      description: 'هذا الموضوع يتضمّن محتوى عدائي أو سيء، أو فيه انتهاك <a href="/guidelines">لإرشادات مجتمعنا</a>.'
       long_form: 'التبليغ على أنه غير ملائم'
     notify_moderators:
       title: "شيء آخر "
-      description: 'هذا الموضوع يتطلب اهتمام الطاقم العام بناءً على  <a href="/guidelines">إرشادات المجتمع</a>, <a href="%{tos_url}">شروط الخدمة</a>, أو لسبب آخر لم يذكر أعلاه.'
+      description: 'هذا الموضوع يتطلب اهتمام الطاقم العام بناءً على  <a href="/guidelines">إرشادات المجتمع</a>، <a href="%{tos_url}">شروط الخدمة</a>، أو لسبب آخر لم يذكر أعلاه.'
       long_form: 'التبليغ على أنه يتطلّب تدخل المشرفين'
       email_title: 'الموضوع "%{title}" يتطلّب تدخل المشرفين'
       email_body: "%{link}\n\n%{message}"
@@ -1209,7 +1209,7 @@ ar:
 
     desktop_category_page_style: "الأسلوب المرئي لصفحة التصنيفات /categories."
     category_colors: "قائمة قيم الألوان الست عشرية المسموحة في التصنيفات."
-    category_style: "النمط المرئي لتصنيف الأوسمة."
+    category_style: "النمط المرئي للتصنيفات."
     max_image_size_kb: "الحجم الأقصى للصورة المرفوعة بالكيلوبايت. يجب إعداد هذا الخيار في خادم nginx ومن (client_max_body_size) أو apache أو البروكسي أيضًا"
     max_attachment_size_kb: "أقصى حجم لملفات المرفقات المرفوعة بالكيلوبايت. يجب إعداد هذا الخيار في خادم nginx ومن (client_max_body_size) أو apache أو البروكسي أيضًا."
     authorized_extensions: "قائمة بالملفات المسموح رفعها (أستخدم '*' للسماح لجميع الأنواع)"
@@ -2682,9 +2682,9 @@ ar:
   color_schemes:
     base_theme_name: "أساسي"
 
-  about: "حول "
-  guidelines: "إرشادات"
-  privacy: "خصوصيّة"
+  about: "حول الموقع"
+  guidelines: "الإرشادات"
+  privacy: "الخصوصيّة"
 
   edit_this_page: "تعديل هذه الصفحة"
   csv_export:

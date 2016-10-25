@@ -212,7 +212,7 @@ ar:
     topic_admin_menu: "عمليات المدير"
     wizard_required: "من المُستحسن البدء في إعداد منتداك الآن من خلال <a href='%{url}' data-auto-route='true'>مُرشد الإعداد</a>"
     emails_are_disabled: "لقد عَطّل أحد المدراء الرسائل البريديّة الصّادرة للجميع. لن تُرسل إشعارات عبر البريد الإلكتروني أيًا كان نوعها."
-    bootstrap_mode_enabled: "الموقع اﻷن مفعّل بالطريقة التمهيديّة لكى تتمكن من إطلاق موقعك الجديد بسهولة. سيسجل كل المستخدمين الجدد بمستوى ثقة 1 وسيكون خيار إرسال الملخّص اليومي عن طريق البريد الالكترونى مفعّل. سيتم إلغاء تفعيل الطريقة التمهيديّة تلقائيًا عندما يَتخطى عدد اﻷعضاء الرقم %{min_users}."
+    bootstrap_mode_enabled: "الموقع حاليًا يعمل بالطريقة التمهيديّة. لكى تتمكن من إطلاق موقعك الجديد بسهولة. سيسجل كل المستخدمين الجدد بمستوى ثقة 1 وسيكون خيار إرسال الملخّص اليومي عن طريق البريد الالكترونى مفعّل. سيتم إلغاء تفعيل الطريقة التمهيديّة تلقائيًا عندما يَتخطى عدد اﻷعضاء الرقم %{min_users}."
     bootstrap_mode_disabled: "سيتم إلغاء تفعيل الطريقة التمهيديّة خلال الـ 24 ساعة القادمة"
     s3:
       regions:
@@ -239,7 +239,7 @@ ar:
     sign_up: "التسجيل"
     log_in: "الدخول"
     age: "العمر"
-    joined: "انضم في"
+    joined: "الانضمام"
     admin_title: "إدارة"
     flags_title: "تبليغات"
     show_more: "أظهر المزيد"
@@ -302,8 +302,8 @@ ar:
       contact: "اتصل بنا"
       contact_info: "في حال حدوث مشكلة حرجة أو أمر عاجل يؤثّر على الموقع، من فضلك راسلنا على %{contact_info}."
     bookmarked:
-      title: "المفضّلة"
-      clear_bookmarks: "مسح المفضّلة"
+      title: "تفضيل"
+      clear_bookmarks: "إلغاء التفضيلات"
       help:
         bookmark: "انقر لإضافة أول مشاركة في هذا الموضوع إلى المفضّلة"
         unbookmark: "انقر لإزالة كل المفضّلات من هذا الموضوع"
@@ -1024,7 +1024,7 @@ ar:
       disable: "عرض المشاركات المحذوفة"
     private_message_info:
       title: "الرسالة"
-      invite: "دعوة الآخرين..."
+      invite: "دعوة أحدهم..."
       remove_allowed_user: "هل تريد حقًا إزالة {{name}} من هذه الرسالة؟"
       remove_allowed_group: "هل تريد حقًا إزالة {{name}} من هذه الرسالة؟"
     email: 'البريد الإلكتروني'
@@ -1138,10 +1138,10 @@ ar:
 
       error:
         title_missing: "العنوان مطلوب"
-        title_too_short: "عدد محارف العنوان يجب أن يكون على الأقل {{min}}"
-        title_too_long: "عدد محارف العنوان يجب أن لا يتجاوز {{max}}"
+        title_too_short: "يُرجى كتابة عنوان لا يقل عن {{min}} حرفًا"
+        title_too_long: "يُرجى كتابة عنوان لا يتجاوز {{max}} حرف"
         post_missing: "لا يمكن للمشاركة أن تكون خالية"
-        post_length: "عدد محارف المشاركة يجب أن تكون على الأقل {{min}}"
+        post_length: "يُرجى كتابة مشاركة لا تقل عن {{min}} حرفًا"
         try_like: 'هل جربت الزر <i class="fa fa-heart"></i>؟'
         category_missing: "يجب اختيار تصنيف"
 
@@ -1238,7 +1238,7 @@ ar:
       invitee_accepted: "<i title='accepted your invitation' class='fa fa-user'></i><p><span>{{username}}</span> قبل دعوتك</p>"
       moved_post: "<i title='moved post' class='fa fa-sign-out'></i><p><span>{{username}}</span> نقل {{description}}</p>"
       linked: "<i title='linked post' class='fa fa-link'></i><p><span>{{username}}</span> {{description}}</p>"
-      granted_badge: "<i title='badge granted' class='fa fa-certificate'></i><p>مُنحت الوسام'{{description}}'</p>"
+      granted_badge: "<i title='badge granted' class='fa fa-certificate'></i><p>مُنحت الوسام '{{description}}'</p>"
 
       watching_first_post: "<i title='new topic' class='fa fa-dot-circle-o'></i><p><span>موضوع جديد</span> {{description}}</p>"
 
@@ -1308,7 +1308,7 @@ ar:
       no_results: "لا نتائج."
       no_more_results: "لا نتائج أخرى."
       search_help: بحث عن المساعدة
-      searching: "يبحث..."
+      searching: "بحث..."
       post_format: "#{{post_number}} بواسطة {{username}}"
       context:
         user: "البحث في مشاركات @{{username}}"
@@ -1556,7 +1556,7 @@ ar:
         make_public: "جعل الموضوع عامًا"
         make_private: "رسالة خاصّة"
       feature:
-        pin: "تثبيت مواضيع"
+        pin: "تثبيت الموضوع"
         unpin: "إلغاء تثبيت مواضيع"
         pin_globally: "تثبيت الموضوع على عموم الموقع"
         make_banner: "موضوع إعلامي"
@@ -1580,7 +1580,7 @@ ar:
         confirm_pin: "لديك مسبقًا {{count}} مواضيع مثبّتة. قد تكون كثرة المواضيع المثبّتة عبئًا على المستخدمين الجدد والزوار. هل أنت متأكد أنك تريد تثبيت موضوع آخر في هذا التصنيف؟"
         unpin: "إزالة هذا الموضوع من أعلى التصنيف {{categoryLink}}."
         unpin_until: "إزالة هذا الموضوع من أعلى تصنيف {{categoryLink}} أو الانتظار حتّى <strong>%{until}</strong>."
-        pin_note: "المستخدمون يستطعون إزالة تثبيت الموضوع بشكل خاص بهم."
+        pin_note: "يستطيع المستخدمون إزالة تثبيت الموضوع بشكل خاص بهم."
         pin_validation: "التاريخ مطلوب لتثبيت هذا الموضوع."
         not_pinned: "لا مواضيع مثبّتة في {{categoryLink}}."
         already_pinned:
@@ -1605,7 +1605,7 @@ ar:
           other: "مواضيع حاليًا مثبّتة عامةً <strong class='badge badge-notification unread'>{{count}}</strong>"
         make_banner: "جعل هذا الموضوع إعلانًا يظهر أعلى كل الصفحات."
         remove_banner: "إزالة الإعلان الذي يظهر أعلى كل الصفحات."
-        banner_note: "يستطيع المستخدمون إزالة الإعلان بإغلاقه. لا يمكن لموضعين أن يظهرها كإعلان في الوقت نفسه."
+        banner_note: "يستطيع المستخدمون إزالة الإعلان بإغلاقه. لا يمكن لموضعين أن يظهرا كإعلان في الوقت نفسه."
         no_banner_exists: "لا يوجد موضوع إعلاني"
         banner_exists: "يوجد <strong class='badge badge-notification unread'>بالفعل</strong> حاليًا موضوع إعلاني."
       inviting: "دعوة..."
@@ -1625,7 +1625,7 @@ ar:
         title: 'دعوة'
         username_placeholder: "اسم المستخدم"
         action: 'أرسل دعوة'
-        help: 'دعوة الآخرين لهذا الموضوع عن طرق البريد الإلكتروني أو الإشعارات'
+        help: 'دعوة الآخرين لهذا الموضوع عن طريق البريد الإلكتروني أو الإشعارات'
         to_forum: "سنرسل بريدًا إلكترونيًا لصديقك للانضمام مباشرةً عبر النقر على رابط، الدخول غير مطلوب."
         sso_enabled: "أدخل اسم مَن ترغب في دعوته إلى هذا الموضوع."
         to_topic_blank: "أدخل اسم مَن ترغب في دعوته إلى هذا الموضوع أو بريده."
@@ -2793,20 +2793,20 @@ ar:
         none: "لا نسخ احتياطية متوفّرة."
         read_only:
           enable:
-            title: "تفعيل وضع للقراءة فقط"
-            label: "تفعيل وضع للقراءة فقط"
-            confirm: "أمتأكد من تفعيل وضع للقراءة فقط؟"
+            title: "تفعيل الوضع للقراءة فقط"
+            label: "تفعيل للقراءة فقط"
+            confirm: "أمتأكد من تفعيل الوضع للقراءة فقط؟"
           disable:
-            title: "تعطيل وضع للقراءة فقط"
+            title: "تعطيل الوضع للقراءة فقط"
             label: "تعطيل للقراءة فقط"
         logs:
           none: "لا سجلات بعد..."
         columns:
           filename: "اسم الملف"
-          size: "حجم"
+          size: "الحجم"
         upload:
           label: "رفع"
-          title: "رفع نسخة احتياطية لهذه الحالة."
+          title: "رفع نسخة احتياطية لهذه الحالة"
           uploading: "يرفع..."
           success: "رُفع '{{filename}}' بنجاح."
           error: "حصلت مشكلة أثناء رفع '{{filename}}': {{message}}"
@@ -2893,7 +2893,7 @@ ar:
           subject: "الموضوع"
           multiple_subjects: "قالب البريد الإلكتروني هذا يملك عناوين متعددة."
           body: "المحتوى"
-          none_selected: "اختر قالب بريد إلكتروني ليتم تحريره."
+          none_selected: "اختر أي قالب بريد إلكتروني للبدء لتحريره."
           revert: "استعادة التغيرات"
           revert_confirm: "هل أنت متاكد من أنك تريد استعادة تغيراتك؟ "
 
@@ -3096,7 +3096,7 @@ ar:
             text: "طي"
             title: "إنشاء مدخلات فرعية جديدة إذا كانت هذه على الأقل مدخلات 'min_ban_entries_for_roll_up'."
         logster:
-          title: "سجلات خطأ."
+          title: "سجلات الأخطاء"
       impersonate:
         title: "انتحال الشخصية"
         help: "استخدم هذه الأداة لانتحال حساب مستخدم لأغراض التصحيح. يتوجب عليك تسجيل الخروج عند الانتهاء."
