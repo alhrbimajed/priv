@@ -601,6 +601,7 @@ ar:
           رسائل البريد الإلكتروني هذه لا تتضمّن على التصنيفات والمواضيع المكتومة.
         daily: "أرسل تحديثات يوميّة"
         individual: "أرسل لي بريدًا لكل مشاركة جديدة"
+        individual_no_echo: "إرسال بريد إلكتروني لكل مشاركة جديدة ما عدا مشاركتي"
         many_per_day: "أرسل لي بريدًا لكل مشاركة جديدة (تقريبًا {{dailyEmailEstimate}} باليوم الواحد)"
         few_per_day: "أرسل لي بريدًا لكل مشاركة جديدة (تقريبًا بريدين باليوم الواحد)"
       tag_settings: "الوسوم"
@@ -736,6 +737,7 @@ ar:
         title: "لغة الواجهة"
         instructions: "لغة الواجهة الرسومية. ستتغير عند تحديث الصفحة."
         default: "(الافتراضية)"
+        any: "أي"
 
       password_confirmation:
         title: "كلمة المرور ثانيةً"
@@ -800,6 +802,9 @@ ar:
         after_4_minutes: "بعد 4 دقائقٍ"
         after_5_minutes: "بعد 5 دقائقٍ"
         after_10_minutes: "بعد 10 دقائقٍ"
+
+      notification_level_when_replying: "عندما أقوم بالمشاركة في موضوع، قم بضبط ذلك الموضوع إلى"
+
       invited:
         search: "البحث عن الدعوات..."
         title: "الدعوات"
@@ -1322,6 +1327,45 @@ ar:
         topic: "ابحث في هذا الموضوع"
         private_messages: "البحث في الرسائل الخاصة"
 
+      advanced:
+        title: بحث متقدم
+        posted_by:
+          label: صاحب المشاركة
+        in_category:
+          label: في التصنيف
+        in_group:
+          label: في المجموعة
+        with_badge:
+          label: بالوسام
+        with_tags:
+          label: بالوسم
+        filters:
+          label: إظهار نتائج المواضيع أو المشاركات التي...
+          likes: أعجبت بها
+          posted: شاركت فيها
+          watching: أقوم بمراقبتها
+          tracking: أقوم بتتبّعها
+          private: موجودة في الرسائل الخاصة
+          bookmarks: قمت بتفضيلها
+          first: المشاركة الأولى
+          pinned: مثبّت
+          unpinned: غير مثبّت
+          wiki: ويكي
+        statuses:
+          label: حيث المواضيع
+          open: مفتوحة
+          closed: مغلقة
+          archived: مأرشفة
+          noreplies: لا تملك ردودًا
+          single_user: تحتوي مستخدم وحيد
+        post:
+          count:
+            label: أقل عدد مشاركات
+          time:
+            label: منشورة
+            before: قبل
+            after: بعد
+
     hamburger_menu: "انتقل إلى قائمة المواضيع أو تصنيف آخر"
     new_item: "جديد"
     go_back: 'رجوع'
@@ -1576,6 +1620,11 @@ ar:
       share:
         title: 'مشاركة'
         help: 'شارك رابط إلى هذا الموضوع'
+
+      print:
+        title: 'طباعة'
+        help: 'عرض نسخة للطباعة لهذا الموضوع'
+
       flag_topic:
         title: 'تبليغ'
         help: 'التبليغ عن هذا الموضوع بشكل خاص '
@@ -2376,6 +2425,7 @@ ar:
         mark_regular: '<b>m</b>، <b>r</b> موضوع عادي (الإفتراضي)'
         mark_tracking: '<b>m</b>، <b>t</b> متابعة الموضوع'
         mark_watching: '<b>m</b>، <b>w</b> مراقبة الموضوع'
+        print: '<b>ctrl</b>+<b>p</b> طباعة الموضوع'
 
     badges:
       earned_n_times:
