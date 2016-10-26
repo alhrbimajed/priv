@@ -737,7 +737,7 @@ ar:
         title: "لغة الواجهة"
         instructions: "لغة الواجهة الرسومية. ستتغير عند تحديث الصفحة."
         default: "(الافتراضية)"
-        any: "أي"
+        any: "الجميع"
 
       password_confirmation:
         title: "كلمة المرور ثانيةً"
@@ -1350,7 +1350,7 @@ ar:
           first: المشاركة الأولى
           pinned: مثبّت
           unpinned: غير مثبّت
-          wiki: ويكي
+          wiki: من نوع ويكي
         statuses:
           label: حيث المواضيع
           open: مفتوحة
