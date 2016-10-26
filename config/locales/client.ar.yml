@@ -1316,8 +1316,8 @@ ar:
         many: "{{count}} نتيجةً ل‍ <span class='term'>\"{{term}}\"</span>"
         other: "{{count}} نتيجةٍ ل‍ <span class='term'>\"{{term}}\"</span>"
       title: "ابحث في المواضيع أو المشاركات أو المستخدمين أو التصنيفات"
-      no_results: "لا نتائج."
-      no_more_results: "لا نتائج أخرى."
+      no_results: "لا يوجد نتائج."
+      no_more_results: "لا يوجد نتائج أخرى."
       search_help: بحث عن المساعدة
       searching: "بحث..."
       post_format: "#{{post_number}} بواسطة {{username}}"
@@ -2916,9 +2916,9 @@ ar:
         long_title: "تخصيصات الموقع"
         css: "CSS"
         header: "رأسية الصفحة"
-        top: "Top"
+        top: "الجزء العلوي"
         footer: "ذيل الصفحة"
-        embedded_css: "تضمين CSS"
+        embedded_css: "تنسيق مضمّن"
         head_tag:
           text: "</head>"
           title: "شيفرة الـ HTML التي سوف يتم إدراجها قبل الوسم </head>"

@@ -739,9 +739,17 @@ ar:
     authorize: "التخويل"
     read: "قراءة"
     read_write: "قراءة/كتابة"
-    description: "هل تريد منح \"%{application_name}\" صلاحيات %{access} إلى حسابك؟"
+    description: "إن \"%{application_name}\" يطلب الصلاحيات التالية إلى حسابك:"
     no_trust_level: "معذرةً، أنت لا تملك مستوى الثقة المطلوب للوصول إلى الـ API الخاصّة بالمستخدم"
     generic_error: "معذرةً، لم نتمكّن من إصدار مفاتيح API للمُستخدم، ربّما هذه الميّزة مُعطّلة من قبل مدير الموقع"
+    scopes:
+      message_bus: "تحديثات مباشرة"
+      notifications: "قراءة ومسح التنبيهات"
+      push: "دفع التنبيهات إلى خدمات خارجيّة"
+      session_info: "قراءة معلومات جلسة المستخدم"
+      read: "قراءة الكل"
+      write: "كتابة الكل"
+
   reports:
     visits:
       title: "زيارات المستخدم"
@@ -962,7 +970,9 @@ ar:
     show_pinned_excerpt_mobile: "اظهر مقتطف من المواضيع المثبتة عند عرضها من أجهزة الهاتف."
     show_pinned_excerpt_desktop: "اظهر مقتطفات من المواضيع المثبتة عند عرضها من سطح المكتب."
     post_onebox_maxlength: "الحد الأقصى من الأحرف لطول مشاركة oneboxed Discourse."
-    onebox_domains_whitelist: "قائمة بالمجالات التي يُسمح فيها استخدام الروابط التفصيليّة (oneboxing)؛ والتي ينبغي أن تدعم  OpenGraph أو oEmbed. يمكن اختبار المجالات من خلال موقع: http://iframely.com/debug"
+    onebox_domains_blacklist: "قائمة المجالات التي لن تتحوّل أبدًا إلى oneboxed."
+    max_oneboxes_per_post: "الحد الأعظمي من oneboxes في مشاركة."
+
     logo_url: "صورة الشعار في الجزء العلوي الأيسر من موقع الويب الخاص بك، يجب أن تكون على شكل مستطيل واسع. إذا ترك الحقل فارغا فسيتم استخدام اسم الموقع."
     digest_logo_url: "صورة الشعار البديل المستخدم في الجزء العلوي لملخص البريد الالكترونى الخاص بموقعك، يجب أن تكون على شكل مستطيل واسع. لا يجب أن تكون الصورة من نوع SVG.  إذا ترك الحقل فارغًا فسيتم استخدام `logo_url`."
     logo_small_url: "صورة الشعار الصغير في الجزء العلوي الأيسر من موقع الويب الخاص بك، يجب أن تكون على شكل مربع، ويظهر عند التدرّج نزولًا في التصفّح. إذا ترك فارغًا فسيتم استخدام أيقونة على شكل منزل."
@@ -1351,6 +1361,8 @@ ar:
 
     topic_page_title_includes_category: "عنوان صفحة الموضع تتضمّن اسم التصنيف."
 
+    max_prints_per_hour_per_user: "العدد الأعظمي لصفحة /print. (اختر 0 للتعطيل)"
+
     full_name_required: "الاسم الكامل هو حقل مطلوب لصفحة تعريف المستخدم"
     enable_names: "عرض الاسم الكامل للمستخدم في الصفحة الشخصية، وبطاقة المستخدم، ورسائل البريد الإلكتروني. التعطيل سيؤدي إلى إخفاء الاسم الكامل في كل مكان."
     display_name_on_posts: "عرض الاسم الكامل للمستخدم في مشاركاته بالإضافة إلى @username."
@@ -1368,6 +1380,7 @@ ar:
     embed_username_key_from_feed: "مفتاح لسحب اسم مستخدم discourse من المغذي."
     embed_title_scrubber: "التعابير النمطيّة لمسح العناوين القابلة للطمر"
     embed_truncate: "اقتطاع المشاركات المضمّنة."
+    allowed_href_schemes: "السماح لـ schemes في الروابط بالإضافة إلى http و https."
     embed_post_limit: "أقصى عدد للمشاركات المضمّنة."
     embed_username_required: "اسم المستخدم لإنشاء موضوع مطلوب"
     embed_whitelist_selector: "منتقي CSS للعناصر التي تُسمح في التضمينات."
@@ -1389,6 +1402,7 @@ ar:
 
     approve_post_count: "عدد مشاركات المستخدم الجديد أو الأساسي التي يجب الموافقة عليها"
     approve_unless_trust_level: "مشاركات المستخدمين أدنى من مستوى الثقة هذا يجب الموافقة عليها."
+    approve_new_topics_unless_trust_level: "المواضيع الجديدة للمستخدمين الذين يملكون مستوى ثقة أقل من هذا يجب أن يوافق عليها"
     notify_about_queued_posts_after: "في حال وجود منشورات تنتظر المُراجعة لأكثر من هذا العدد من الساعات، فسيرسل بريدًا إلكترونيًّا إلى بريد التواصل contact_email. القيمة 0 تعطّل هذه الرسائل الإلكترونيّة."
     auto_close_messages_post_count: "الحدّ الأعظمي من المنشورات المسموح في الرسالة قبل أن تُغلق تلقائيًّا (0 للتعطيل)"
     auto_close_topics_post_count: "الحدّ الأعظمي من المنشورات المسموح في الموضوع قبل أن يُغلق تلقائيًّا (0 للتعطيل)"
@@ -1407,6 +1421,7 @@ ar:
     default_email_in_reply_to: "تضمين مقتبسات من الردود على المشاركة في رسائل البريد افتراضيًا"
     default_other_new_topic_duration_minutes: "الشروط العامة الافتراضية والتي سيعتبر فيها الموضوع جديدًا."
     default_other_auto_track_topics_after_msecs: "الوقت الافتراضي العام قبل أن يتم تعقب موضوع اتوماتيكًا."
+    default_other_notification_level_when_replying: "مستوى الإشعار الإفتراضي العام عندما يضيف المستخدم ردًا على موضوع."
     default_other_external_links_in_new_tab: "فتح الروابط الخارجية في تبويب جديد افتراضيًا."
     default_other_enable_quoting: "تفعيل إقتباس الردود للنص المحدّد افتراضيًا."
     default_other_dynamic_favicon: "إعرض عدد المواضيع الجديدة/الحديثة في أيقونة المتصفح افتراضيًا."
@@ -1422,6 +1437,8 @@ ar:
 
     max_user_api_reqs_per_day: "الحدّ الأعلى من طلبات الـ API للمستخدم لكل مفتاح في اليوم"
     max_user_api_reqs_per_minute: "الحدّ الأعلى من طلبات الـ API للمستخدم لكل مفتاح في الدقيقة"
+    allow_user_api_keys: "السماح للمستخدم بتوليد مفاتيح API"
+    allow_user_api_key_scopes: "قائمة بالمجالات المسموحة من أجل مفاتيح الـ API الخاصّة بالمستخدم"
     allow_read_user_api_keys: "السماح بتوليد مفاتيح API للمستخدم للقراءة فقط"
     allow_write_user_api_keys: "السماح بتوليد مفاتيح API للمستخدم وبصلاحيّة كتابة"
     allow_push_user_api_keys: "السماح بتوليد مفاتيح API للمستخدم وبصلاحيّة دفع"
@@ -2681,6 +2698,7 @@ ar:
     message_to_blank: "message.to فارغ"
     text_part_body_blank: "text_part.body فارغ"
     body_blank: "محتوى فارغ "
+    no_echo_mailing_list_mode: "إشعارات القائمة البريدية معطّلة لناشر المشاركة"
   color_schemes:
     base_theme_name: "أساسي"
 
@@ -3278,7 +3296,21 @@ ar:
     title: "الوسوم"
     staff_tag_disallowed: "الوسم \"%{tag}\" يُعيّن فقط من قِبل طاقم الموقع."
     staff_tag_remove_disallowed: "الوسم \"%{tag}\" يُزال فقط من قبل طاقم الموقع."
-  rss_by_tag: "المواضيع موسومة %{tag}"
+  rss_by_tag: "المواضيع ذات الوسم %{tag}"
+
+  finish_installation:
+    congratulations: "مبروك، لقد انتهيت من التركيب!"
+    register:
+      button: "تسجيل"
+      title: "تسجيل حساب مدير"
+      help: "تسجيل حساب جديد للبدء"
+      no_emails: "للأسف، لم يتم تحديد أي بريد إلكتروني للمدير خلال الإعداد، لذا فإن استكمال الإعداد <a href='https://meta.discourse.org/t/how-to-create-an-administrator-account-after-install/14046'>قد يكون صعبًا</a>."
+    confirm_email:
+      title: "يرجى تأكيد البريد الإلكتروني"
+      message: "<p>تم إرسال بريد تنشيط إلى <b>%{email}</b>. فضلًا اتبع التعليمات في البريد لتفعيل حسابك.</p><p>إن لم يصل البريد، تأكّد من إعداد البريد الإلكتروني بشكل صحيح.</p>"
+    resend_email:
+      title: "إعادة إرسال بريد التنشيط"
+      message: "<p>تم إعادة إرسال بريد التنشيط إلى <b>%{email}</b>"
 
   wizard:
     title: "إعداد منصّة Discourse"
