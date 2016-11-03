@@ -56,54 +56,54 @@ ar:
           many: "< %{count} ثانية"
           other: "< %{count} ثانية"
         x_seconds:
-          zero: "%{count}ث"
-          one: "%{count}ث"
-          two: "%{count}ث"
-          few: "%{count}ث"
-          many: "%{count}ث"
-          other: "%{count}ث"
+          zero: "%{count} ث"
+          one: "%{count} ث"
+          two: "%{count} ث"
+          few: "%{count} ث"
+          many: "%{count} ث"
+          other: "%{count} ث"
         x_minutes:
-          zero: "%{count}د"
-          one: "%{count}د"
-          two: "%{count}د"
-          few: "%{count}د"
-          many: "%{count}د"
-          other: "%{count}د"
+          zero: "%{count} د"
+          one: "%{count} د"
+          two: "%{count} د"
+          few: "%{count} د"
+          many: "%{count} د"
+          other: "%{count} د"
         about_x_hours:
-          zero: "%{count}س"
-          one: "%{count}س"
-          two: "%{count}س"
-          few: "%{count}س"
-          many: "%{count}س"
-          other: "%{count}س"
+          zero: "%{count} س"
+          one: "%{count} س"
+          two: "%{count} س"
+          few: "%{count} س"
+          many: "%{count} س"
+          other: "%{count} س"
         x_days:
-          zero: "%{count}ي"
-          one: "%{count}ي"
-          two: "%{count}ي"
-          few: "%{count}ي"
-          many: "%{count}ي"
-          other: "%{count}ي"
+          zero: "%{count} ي"
+          one: "%{count} ي"
+          two: "%{count} ي"
+          few: "%{count} ي"
+          many: "%{count} ي"
+          other: "%{count} ي"
         about_x_years:
-          zero: "%{count}ع"
-          one: "%{count}ع"
-          two: "%{count}ع"
-          few: "%{count}ع"
-          many: "%{count}ع"
-          other: "%{count}ع"
+          zero: "%{count} ع"
+          one: "%{count} ع"
+          two: "%{count} ع"
+          few: "%{count} ع"
+          many: "%{count} ع"
+          other: "%{count} ع"
         over_x_years:
-          zero: "> %{count}ع"
-          one: "> %{count}ع"
-          two: "> %{count}ع"
-          few: "> %{count}ع"
-          many: "> %{count}ع"
-          other: "> %{count}ع"
+          zero: "> %{count} ع"
+          one: "> %{count} ع"
+          two: "> %{count} ع"
+          few: "> %{count} ع"
+          many: "> %{count} ع"
+          other: "> %{count} ع"
         almost_x_years:
-          zero: "%{count}ع"
-          one: "%{count}ع"
-          two: "%{count}ع"
-          few: "%{count}ع"
-          many: "%{count}ع"
-          other: "%{count}ع"
+          zero: "%{count} ع"
+          one: "%{count} ع"
+          two: "%{count} ع"
+          few: "%{count} ع"
+          many: "%{count} ع"
+          other: "%{count} ع"
         date_month: "D MMM"
         date_year: "MMM YYYY"
       medium:
@@ -212,7 +212,7 @@ ar:
     topic_admin_menu: "عمليات المدير"
     wizard_required: "من المُستحسن البدء في إعداد منتداك الآن من خلال <a href='%{url}' data-auto-route='true'>مُرشد الإعداد</a>"
     emails_are_disabled: "لقد عَطّل أحد المدراء الرسائل البريديّة الصّادرة للجميع. لن تُرسل إشعارات عبر البريد الإلكتروني أيًا كان نوعها."
-    bootstrap_mode_enabled: "الموقع حاليًا في المرحلة التمهيديّة. لكى تتمكن من إطلاق موقعك الجديد بسهولة. سيسجل كل المستخدمين الجدد بمستوى ثقة 1 وسيكون خيار إرسال الملخّص اليومي عن طريق البريد الالكترونى مفعّل. سيتم إلغاء تفعيل الطريقة التمهيديّة تلقائيًا عندما يَتخطى عدد اﻷعضاء الرقم %{min_users}."
+    bootstrap_mode_enabled: "الموقع حاليًا في المرحلة التمهيديّة. لكى تتمكن من إطلاق موقعك الجديد بسهولة. سيسجل كل المستخدمين الجدد بمستوى الثقة 1 وسيكون خيار إرسال الملخّص اليومي عن طريق البريد الالكترونى مفعّل. سيتم إلغاء تفعيل الطريقة التمهيديّة تلقائيًا عندما يَتخطى عدد اﻷعضاء الرقم %{min_users}."
     bootstrap_mode_disabled: "سيتم إلغاء تفعيل الطريقة التمهيديّة خلال الـ 24 ساعة القادمة"
     s3:
       regions:
@@ -539,7 +539,7 @@ ar:
       other_accounts: "حسابات أخرى بنفس العنوان:"
       delete_other_accounts: "حذف %{count}"
       username: "اسم المستخدم"
-      trust_level: "TL"
+      trust_level: "مستوى الثقة"
       read_time: "معدّل القراءة"
       topics_entered: "مواضيع شوهدت"
       post_count: "# مشاركات"
@@ -929,7 +929,7 @@ ar:
       ip_address:
         title: "عنوان IP الأخير"
       registration_ip_address:
-        title: "عنوان الرقمي (IP) عند التسجيل"
+        title: "العنوان الرقمي (IP) عند التسجيل"
       avatar:
         title: "صورة الملفّ الشخصي"
         header_title: "الملفّ الشخصي والرسائل والمفضّلات والتفضيلات"
@@ -1038,7 +1038,7 @@ ar:
     created: 'الإنشاء'
     created_lowercase: 'الإنشاء'
     trust_level: 'مستوى الثقة'
-    search_hint: 'اسم مستخدم أو بريد إلكتروني أو عنوان رقمي IP'
+    search_hint: 'الاسم أو البريد أو IP'
     create_account:
       title: "إنشاء حساب جديد"
       failed: "حدث خطأ ما، ربما هذا البريد الإلكتروني مُسجل مسبقًا، جرب رابط 'نسيت كلمة المرور'"
@@ -1743,7 +1743,7 @@ ar:
           few: "الرجاء اختيار المالك الجديد لـ {{count}} مشاركاتٍ المنشورة بواسطة <b>{{old_user}}</b>."
           many: "الرجاء اختيار المالك الجديد لـ {{count}} مشاركةً المنشورة بواسطة <b>{{old_user}}</b>."
           other: "الرجاء اختيار المالك الجديد لـ {{count}} مشاركةٍ المنشورة بواسطة <b>{{old_user}}</b>."
-        instructions_warn: "يُرجى ملاحظة أن الإشعارات السابقة حول هذه المشاركة لن تُنقل إلى المستخدم الجديد.<br>تنبيه: في الوقت الحالي لا يوجد بيانات ذات علاقة بالمشاركات أُحيلت إلى المستخدم الجديد. يُرجى الحذر."
+        instructions_warn: "يُرجى ملاحظة أن الإشعارات السابقة حول هذه المشاركة لن تُنقل إلى المستخدم الجديد.<br>تنبيه: في الوقت الحالي لم يتم إحالة أية بيانات ذات علاقة بالمشاركات إلى المستخدم الجديد. يُرجى الحذر في استخدام هذه الخاصيّة."
       change_timestamp:
         title: "تغيير زمن الإنشاء"
         action: "تغيير زمن الإنشاء"
@@ -2470,6 +2470,7 @@ ar:
           name: أخرى
         posting:
           name: النشر
+
     google_search: |
       <h3>البحث باستخدام Google</h3>
       <p>
@@ -2717,7 +2718,7 @@ ar:
         add_members: "إضافة أعضاء"
         custom: "المخصصة"
         bulk_complete: "أُضيف المستخدمون إلى المجموعة."
-        bulk: "إضافة بالجملة للمجموعة"
+        bulk: "إضافة مجموعة مستخدمين للمجموعة"
         bulk_paste: "يُرجى لصق قائمة بأسماء المستخدمين أو عناوين البريد الإلكتروني، بريد واحد في كل سطر:"
         bulk_select: "(اختيار مجموعة)"
         automatic: "الافتراضيّة"
@@ -2874,7 +2875,7 @@ ar:
             title: "إلغاء العملية الحالية"
             confirm: "أمتأكد من إلغاء العملية الحالية؟"
           backup:
-            label: "البدء بالنسخ الاحتياطي"
+            label: "أنشئ نسخة احتياطية"
             title: "إنشاء نسخة احتياطية"
             confirm: "هل تريد إنشاء نسخة احتياطية جديدة؟"
             without_uploads: "نعم (بدون الملفات)"
@@ -2899,7 +2900,7 @@ ar:
         success: "بدأ التصدير، سيتم إعلامك برسالة عند اكتمال العملية."
         failed: "فشل التصدير. يرجى مراجعة السجلات."
         rate_limit_error: "المشاركات يمكن تحميلها لمرة واحدة في اليوم، الرجاء المحاولة غدًا."
-        button_text: "التصدير"
+        button_text: "تصدير"
         button_title:
           user: "تصدير قائمة كاملة بالمستخدمين بصيغة CSV"
           staff_action: "تصدير كامل إجراءات طاقم الموقع بصيغة CSV."
@@ -2915,10 +2916,10 @@ ar:
         title: "تخصيص"
         long_title: "تخصيصات الموقع"
         css: "CSS"
-        header: "رأسية الصفحة"
-        top: "الجزء العلوي"
-        footer: "ذيل الصفحة"
-        embedded_css: "تنسيق مضمّن"
+        header: "Header"
+        top: "Top"
+        footer: "Footer"
+        embedded_css: "Embedded CSS"
         head_tag:
           text: "</head>"
           title: "شيفرة الـ HTML التي سوف يتم إدراجها قبل الوسم </head>"
@@ -3166,16 +3167,16 @@ ar:
         not_found: "آسفون، اسم هذا المستخدم غير موجود في النظام."
         id_not_found: "آسفون، معرّف هذا المستخدم غير موجود في النظام."
         active: "نشط"
-        show_emails: "عرض الرسائل"
+        show_emails: "إظهار البريد الإلكتروني"
         nav:
-          new: "جديد"
-          active: "نشط"
+          new: "الجديد"
+          active: "النشط"
           pending: "قيد الانتظار"
           staff: 'الطاقم'
-          suspended: 'موقوف'
-          blocked: 'محظور'
-          suspect: 'مريب'
-        approved: "موافقة؟"
+          suspended: 'الموقوف'
+          blocked: 'المحظور'
+          suspect: 'المُريب'
+        approved: "تمت الموافقة؟"
         approved_selected:
           zero: "موافق ({{count}})"
           one: "موافق ({{count}})"
@@ -3213,7 +3214,7 @@ ar:
           many: "تم بنجاح رفض %{count} مستخدمًا."
           other: "تم بنجاح رفض %{count} مستخدمٍ."
         reject_failures:
-          zero: ""
+          zero: "تم الرفض بنجاح"
           one: "فشل في رفض مستخدم واحد."
           two: "فشل في رفض مستخدمين."
           few: "فشل في رفض %{count} مستخدمين."
@@ -3221,12 +3222,12 @@ ar:
           other: "فشل في رفض %{count} مستخدمٍ."
         not_verified: "لم يتم التحقق"
         check_email:
-          title: "إظهار عنوان البريد لهذا المستخدم."
+          title: "إظهار عنوان البريد لهذا المستخدم"
           text: "إظهار"
       user:
         suspend_failed: "حدث خطأ ما في توقيف هذا المستخدم {{error}}."
         unsuspend_failed: "حدث خطأ ما في رفع توقيف هذا المستخدم {{error}}."
-        suspend_duration: "كم هي مدة تعليق المستخدم؟"
+        suspend_duration: "كم هي مدة إيقاف المستخدم؟"
         suspend_duration_units: "(أيام)"
         suspend_reason_label: "ما هو سبب التوقيف؟ هذا النص <b>سيظهر للجميع</b> على الصفحة الشخصية الخاصة بالمستخدم، وللمستخدم نفسه عندما يحاول الدخول. يُرجى ذكر السبب باختصار."
         suspend_reason: "السبب"
@@ -3234,14 +3235,14 @@ ar:
         delete_all_posts: "حذف جميع المشاركات"
 
         delete_all_posts_confirm_MF: "أنت على وشك {POSTS, plural, zero {عدم حذف شيء} one {حذف مشاركة واحدة} two {حذف مشاركتين} few {حذف # مشاركات} many {حذف # مشاركة} other {حذف # مشاركة}}{TOPICS, plural, zero {} one { وموضوع واحد} two { وموضوعين} few { و# مواضيع} many {و# موضوعا} other {و# موضوع}}. أمتأكد؟"
-        suspend: "تعليق"
-        unsuspend: "رفع التعليق"
-        suspended: "معلّق؟"
+        suspend: "توقيف"
+        unsuspend: "رفع الإيقاف"
+        suspended: "موقوف؟"
         moderator: "مشرف؟"
         admin: "مدير؟"
         blocked: "محظور؟"
-        staged: "تنظيم؟"
-        show_admin_profile: "مدير"
+        staged: "بسيط؟"
+        show_admin_profile: "إدارة"
         edit_title: "تعديل اللقب"
         save_title: "حفظ اللقب"
         refresh_browsers: "فرض تحديث المتصفح"
@@ -3466,18 +3467,18 @@ ar:
         badge: الوسام
         display_name: اسم العرض
         description: الوصف
-        long_description: وصف مفصّل
+        long_description: الوصف مفصّل
         badge_type: نوع الوسام
         badge_grouping: المجموعة
         badge_groupings:
           modal_title: 'تجميع الأوسمة'
         granted_by: 'ممنوح من قِبل'
-        granted_at: ممنوح في
+        granted_at: ممنوح منذ
         reason_help: (رابط إلى مشاركة أو موضوع)
         save: حفظ
         delete: حذف
         delete_confirm: أمتأكد من حذف هذا الوسام؟
-        revoke: تعطيل
+        revoke: إلغاء
         reason: السبب
         expand: توسيع &hellip;
         revoke_confirm: هل تريد بالفعل إلغاء هذا الوسام؟
@@ -3498,8 +3499,8 @@ ar:
         query: استعلام الوسام (SQL)
         target_posts: استعلام يستهدف المشاركات
         auto_revoke: تشغيل استعلام الإلغاء يوميًا
-        show_posts: عرض مشاركة الوسام الممنوح على صفحة الوسام.
-        trigger: مطلق
+        show_posts: عرض مشاركة الوسام الممنوح على صفحة الوسام
+        trigger: تفعيل/إلغاء
         trigger_type:
           none: "تحديث يومي"
           post_action: "عندما يتفاعل المستخدم مع مشاركة"

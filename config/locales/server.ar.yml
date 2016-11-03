@@ -25,23 +25,25 @@ ar:
     <<: *datetime_formats
   title: "Discourse"
   topics: "المواضيع"
-  posts: "منشورات."
-  loading: "يحمّل"
-  powered_by_html: 'بدعم من <a href="http://www.discourse.org">Discourse </a>، يفضّل عرضه وجافاسكربت مفعّل'
+  posts: "المشاركات"
+  loading: "جار التحميل"
+  powered_by_html: 'تطوير <a href="http://www.discourse.org">Discourse </a>، يفضّل الاستعراض وجافاسكربت مفعّل'
   log_in: "الدخول"
+
   purge_reason: "تم حذفه تلقائيًا كحساب مهمل وغير مُفعل"
   disable_remote_images_download_reason: "عُطّل تنزيل الصور عن بعد بسبب نفاذ مساحة القرص الحرّة."
   anonymous: "مجهول"
+
   emails:
     incoming:
-      default_subject: "رسالة ورادة من %{email}"
-      show_trimmed_content: "اظهر محتوى أقل"
-      maximum_staged_user_per_email_reached: "أقصى عدد للدعوات التي يمكن للعضو إرسالها باليوم بالبريد الإلكتروني."
+      default_subject: "بريد وارد من %{email}"
+      show_trimmed_content: "إظهار محتوى أقل"
+      maximum_staged_user_per_email_reached: "الوصول إلى الحد الأقصى للمستخدمين البسطاء المنشأة لكل بريد إلكتروني."
       errors:
-        empty_email_error: "في حالة أن البريد المستلم فارغ"
-        no_message_id_error: "يحدث عندما لا يحتوي البريد على 'Message-Id' في العنوان"
+        empty_email_error: "يحدث عندما يكون البريد المستلم فارغًا."
+        no_message_id_error: "يحدث عندما لا يحتوي البريد على 'Message-Id' في العنوان."
         auto_generated_email_error: "يحدث في حال أن الهيدر 'precedence' مضبوط أمّا على: list أو junk أو bulk أو auto_reply. أو في حال وجود هيدر آخر يحتوي على أمّا: auto-replied أو auto-generated."
-        no_body_detected_error: "في حال أننا لم نتمكّن من استخراج متن رسالة ولم يكن هناك مرفقات."
+        no_body_detected_error: "يحدث في حال أننا لم نتمكّن من استخراج متن رسالة ولم يكن هناك مرفقات."
         inactive_user_error: "يحدث عندما يكون المرسل غير نشط"
         blocked_user_error: "يحدث عندما يكون المرسل محظور"
         bad_destination_address: "يحدث عندما لا يكون أي من عناوين البريد الإلكتروني في حقول To/Cc/Bcc تتطابق مع عنوان البريد الإلكتروني الواردّ المضبوط في الإعدادات"
@@ -641,7 +643,7 @@ ar:
     confirmed: "حُدّث بريدك الإلكتروني."
     please_continue: "تابع إلى %{site_name}"
     error: "حدث خطأ في تغيير عنوان بريدك الإلكتروني. ربما العنوان مستخدم بالفعل."
-    error_staged: "حدث خطأ في تغيير عنوان بريدك الإلكتروني. العنوان الذى أدخلته مستخدَم من قبل مستخدِم في حالة staged."
+    error_staged: "حدث خطأ في تغيير عنوان بريدك الإلكتروني. العنوان الذى أدخلته مستخدَم من قبل مستخدِم بسيط."
     already_done: "نأسف عنوان التأكيد هذا لم يعد صالحًا بعد الآن. ربما تم تغيير بريدك بالفعل؟"
     authorizing_old:
       title: "شكرًا لك لتاكيدك عنوان بريدك الحالي."
@@ -829,7 +831,7 @@ ar:
     top_referred_topics:
       title: "أفضل مواضيع الإحالات"
       xaxis: "موضوع"
-      num_clicks: "نقرات"
+      num_clicks: "النقرات"
     page_view_anon_reqs:
       title: "مجهولون"
       xaxis: "يوم"
@@ -1286,8 +1288,8 @@ ar:
 
     delete_email_logs_after_days: "حذف سجلّات البريد بعد (N) من الأيام. 0 لحفظ السجل للأبد"
     max_emails_per_day_per_user: "العدد الأقصى لعدد الرسائل التي يتم إرسالها للأعضاء في اليوم. ضع 0 لإلغاء الحد."
-    enable_staged_users: "أنشئ مستخدمين في حالة staged تلقائيًا عند معالجة رسائل البريد الإلكتروني الوارد."
-    maximum_staged_users_per_email: "الحدّ الأعظمي من المستخدمين في حالة staged المنشئين عند معالجة البريد الإلكتروني الوارد."
+    enable_staged_users: "أنشئ مستخدمين من نوع مستخدم بسيط تلقائيًا عند معالجة رسائل البريد الإلكتروني الوارد."
+    maximum_staged_users_per_email: "الحدّ الأعظمي من المستخدمين البسيطين المنشئين عند معالجة البريد الإلكتروني الوارد."
     auto_generated_whitelist: "قائمة عناوين البريد الإلكتروني التي لن يتم تفحصها للمحتوى المولّد أوتوماتيكيًّا. مثال: foo@bar.com|discourse@bar.com"
     block_auto_generated_emails: "حظر رسائل البريد الإلكتروني الواردة التي تم تحديدها على أنها مولّدة بشكل آلي."
     ignore_by_title: "تجاهل رسائل البريد الإلكتروني الواردة بناءً على عنوانها."
@@ -1394,7 +1396,7 @@ ar:
 
     vacuum_db_days: "تشغيل VACUUM ANALYZE لترميم مساحة قاعدة البيانات بعد عمليات التهجير (القيمة 0 للتعطيل)"
 
-    prevent_anons_from_downloading_files: "امنع المستخدمين المجهولين من تحميل المرفقات. تحذير: سيمنع تفعيل هذا الخيار أي أصول موقع ليست بصور ومنشورة كمرفقات من العمل."
+    prevent_anons_from_downloading_files: "امنع المستخدمين المجهولين من تنزيل المرفقات. تنبيه: تفعيل هذا الخيار سيُعطّل أصول الموقع التي ليست بصور والمنشورة كمرفقات."
     slug_generation_method: "اختر طريقة توليد مسارات المواضيع المقروءة. القيمة 'encode' ستولّد نصًّا مكوّدًا. القيمة 'none' ستعطّل المسار بالكامل."
     enable_emoji: "تفعيل الرموز التعبيرية"
     emoji_set: "كيف تريد أن تكون الرموز التعبيرية الخاصة بك؟"
