@@ -212,7 +212,7 @@ ar:
     topic_admin_menu: "عمليات المدير"
     wizard_required: "من المُستحسن البدء في إعداد منتداك الآن من خلال <a href='%{url}' data-auto-route='true'>مُرشد الإعداد</a>"
     emails_are_disabled: "لقد عَطّل أحد المدراء الرسائل البريديّة الصّادرة للجميع. لن تُرسل إشعارات عبر البريد الإلكتروني أيًا كان نوعها."
-    bootstrap_mode_enabled: "الموقع حاليًا في المرحلة التمهيديّة. لكى تتمكن من إطلاق موقعك الجديد بسهولة. سيسجل كل المستخدمين الجدد بمستوى الثقة 1 وسيكون خيار إرسال الملخّص اليومي عن طريق البريد الالكترونى مفعّل. سيتم إلغاء تفعيل الطريقة التمهيديّة تلقائيًا عندما يَتخطى عدد اﻷعضاء الرقم %{min_users}."
+    bootstrap_mode_enabled: "الموقع حاليًا في المرحلة التمهيديّة. لكى تتمكن من إطلاق موقعك الجديد بسهولة. سيسجل جميع المستخدمين الجدد بمستوى الثقة 1 وسيكون خيار إرسال الملخّص اليومي عن طريق البريد الالكترونى مفعّل. سيتم إلغاء تفعيل الطريقة التمهيديّة تلقائيًا عندما يَتخطى عدد اﻷعضاء الرقم %{min_users}."
     bootstrap_mode_disabled: "سيتم إلغاء تفعيل الطريقة التمهيديّة خلال الـ 24 ساعة القادمة"
     s3:
       regions:
@@ -637,10 +637,7 @@ ar:
       apps: "تطبيقات"
       revoke_access: "تعطيل الوصول"
       undo_revoke_access: "التراجع عن تعطيل الوصول"
-      api_permissions: "الصلاحيات:"
       api_approved: "الموافق عليها:"
-      api_read: "قراءة"
-      api_read_write: "قراءة وكتابة"
 
       staff_counters:
         flags_given: "تبليغات مساعدة"
@@ -1318,9 +1315,8 @@ ar:
       title: "ابحث في المواضيع أو المشاركات أو المستخدمين أو التصنيفات"
       no_results: "لا يوجد نتائج."
       no_more_results: "لا يوجد نتائج أخرى."
-      search_help: بحث عن المساعدة
       searching: "بحث..."
-      post_format: "#{{post_number}} بواسطة {{username}}"
+      post_format: "#{{post_number}} من قِبل {{username}}"
       context:
         user: "البحث في مشاركات @{{username}}"
         category: "البحث في تصنيف #{{category}}"
@@ -2372,8 +2368,7 @@ ar:
       readonly: "مشاهدة"
     lightbox:
       download: "تحميل"
-    search_help:
-      title: 'كيفيّة البحث'
+
     keyboard_shortcuts_help:
       title: 'اختصارات'
       jump_to:
@@ -3260,7 +3255,7 @@ ar:
         block: 'حظر'
         reputation: السمعة
         permissions: الصلاحيات
-        activity: أنشطة
+        activity: الأنشطة
         like_count: الإعجابات المعطاة / المستلمة
         last_100_days: 'في آخر 100 يوم'
         private_topics_count: مواضيع خاصة
@@ -3268,9 +3263,9 @@ ar:
         post_count: المشاركات المنشأة
         topics_entered: المواضيع المشاهدة
         flags_given_count: مبلغ عنه
-        flags_received_count: إبلاغات مستلمة
+        flags_received_count: تبليغات مستلمة
         warnings_received_count: تحذيرات مستلمة
-        flags_given_received_count: 'إبلاغات معطاة / مستلمة'
+        flags_given_received_count: 'تبليغات معطاة / مستلمة'
         approve: 'تصديق'
         approved_by: "مصدق بواسطة"
         approve_success: "تم الموافقة على المستخدم وإرسال بريد إلكتروني بتعليمات التفعيل."
@@ -3417,7 +3412,7 @@ ar:
       site_text:
         description: "يمكنك تخصيص نصوص هذا المنتدى بالكيفية التي تحلو لك. فقط ابدأ بالبحث:"
         search: "ابحث عن النص الذي تريد تعديله"
-        title: 'محتوى النص'
+        title: 'المحتوى النصي'
         edit: 'تعديل'
         revert: "التراجع عن التغيرات"
         revert_confirm: "هل ترغب بالفعل باستعادة التغيرات؟"

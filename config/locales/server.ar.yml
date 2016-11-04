@@ -907,15 +907,7 @@ ar:
     s3_backup_config_warning: 'تم إعداد الخادم لرفع نسخة احتياطية إلى s3، لكن واحدة على الأقل من الإعدادات التالية لم تضبط: s3_access_key_id, s3_secret_access_key or s3_backup_bucket. اذهب إلى  <a href="/admin/site_settings">إعدادات الموقع</a> وتحديث الإعدادات. <a href="http://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229" target="_blank">انظر "كيف ترفع الصور المرفوعة إلى S3؟" لتعلم المزيد</a>.'
     image_magick_warning: 'تم تهيئة الخادم لإنشاء صور مصغرة للصور الكبيرة، لكن ImageMagick لم يثبت. ثبته باستخدام مدير الحزم المفضل لك أو  <a href="http://www.imagemagick.org/script/binary-releases.php" target="_blank">حمل أحدث نسخة</a>.'
     failing_emails_warning: 'يوجد %{num_failed_jobs} مهام بريد إلكتروني بائت بالفشل. تحقق من app.yml الخاص بك وتأكد من صحّة إعدادات خادم البريد. <a href="/sidekiq/retries" target="_blank">انظر للمهام الفاشلة في Sidekiq</a>.'
-    default_logo_warning: "ضع الشعارات الرسومية لموقعك. حدث logo_url, logo_small_url, و favicon_url في <a href='/admin/site_settings'>إعدادات الموقع</a>."
-    contact_email_missing: "أدخل عنوان البريد الإلكتروني لجهة اتصال الموقع لتكون على وصول بالأمور العاجلة حول موقعك. حدثه في <a href='/admin/site_settings'>إعدادات الموقع</a>."
-    contact_email_invalid: "البريد الإلكتروني للموقع معطل. حدّثه <a href='/admin/site_settings'>Site Settings</a>."
-    title_nag: "أدخل اسم موقعك. حدث العنوان في الاعدادات <a href='/admin/site_settings'>Site Settings</a>."
-    site_description_missing: "أدخل جملة وصفية واحدة لموقعك والتي ستظهر في نتائج البحث. حدّث site_description في اعدادات الموقع <a href='/admin/site_settings'>Site Settings</a>."
-    consumer_email_warning: "موقعك مهيئ لاستخدام Gmail (أو مستهلك خدمة بريد إلكتروني آخر) لإرسال بريد إلكتروني. <a href='http://support.google.com/a/bin/answer.py?hl=en&answer=166852' target='_blank'>حدود Gmail كمية رسائل البريد الإلكتروني التي يمكنك إرسالها</a>. فكر باستخدام مزود خدمة بريد إلكتروني مثل mandrill.com لضمان أهداف البريد الإلكتروني."
-    site_contact_username_warning: "أدخل اسم حساب مستخدم ودود من أعضاء الطاقم لإرسال الرسائل الآلية من حسابه. قم بتحديث site_contact_username في <a href='/admin/site_settings'>إعدادات الموقع</a>."
-    notification_email_warning: "رسائل التنبيه البريديّة لم تكن مرسلة من عنوان بريدي صالح على مجالك؛ توصيل البريد سيكون غير منتظم ولايمكن الاعتماد عليها. الرجاء وضع رسائل التنبيه في عنوان بريدي صالح في إعدادات الموقع  <a href='/admin/site_settings'>Site Settings</a>."
-    subfolder_ends_in_slash: "إعدادات المجلدات الداخلية خاطئ;ال DISCOURSE_RELATIVE_URL_ROOT يجب أن تنتهي ب سلاش."
+    subfolder_ends_in_slash: "إعداد المجلدات الفرعية غير صحيحة; DISCOURSE_RELATIVE_URL_ROOT ينتهي بخط مائل (/)."
     email_polling_errored_recently:
       one: "أحدث استطلاع البريد الإلكتروني خطًأ في 24 ساعة الأخيرة. راجع <a href='/logs' target='_blank'>السجلّات</a> للمزيد من التفاصيل."
       other: "أحدث استطلاع البريد الإلكتروني عددًا من الأخطاء (%{count}) في 24 ساعة الأخيرة. راجع <a href='/logs' target='_blank'>السجلّات</a> للمزيد من التفاصيل."
@@ -924,7 +916,6 @@ ar:
     poll_pop3_timeout: "الاتصال بخادم الـ POP3 استغرق وقتًا طويلًا. لم يتم سحب البريد الإلكتروني الصادر. فضلًا تفحّص <a href='/admin/site_settings/category/email'>إعدادات الـ POP3</a> ومزوّد الخدمة."
     poll_pop3_auth_error: "لقد فشل الاتصال بخادم الـ POP3 بخطأ خاصّ بالتوثيق. فضلًا تفحّص <a href='/admin/site_settings/category/email'>إعدادات الـ POP3</a> الخاصّة بك."
   site_settings:
-    daily_performance_report: "تحليل سجلّات الخادم NGINX بشكل يومي وشارك التفاصيل مع طاقم الموقع"
     details_enabled: "تفعيل الإضافة 'تفاصيل'. في حال التعديل يتوجّب تنفيذ الأمر التالي من الطرفيّة: 'rake posts:rebake'."
     censored_words: "الكلمات التي ستستبدل تلقائيًا مع &#9632;&#9632;&#9632;&#9632;"
     delete_old_hidden_posts: "قم تلقائيًا بحذف المشاركات التي مضى عليها مخفيّة أكثر من 30 يومًا"
@@ -1440,10 +1431,7 @@ ar:
     max_user_api_reqs_per_day: "الحدّ الأعلى من طلبات الـ API للمستخدم لكل مفتاح في اليوم"
     max_user_api_reqs_per_minute: "الحدّ الأعلى من طلبات الـ API للمستخدم لكل مفتاح في الدقيقة"
     allow_user_api_keys: "السماح للمستخدم بتوليد مفاتيح API"
-    allow_user_api_key_scopes: "قائمة بالمجالات المسموحة من أجل مفاتيح الـ API الخاصّة بالمستخدم"
-    allow_read_user_api_keys: "السماح بتوليد مفاتيح API للمستخدم للقراءة فقط"
-    allow_write_user_api_keys: "السماح بتوليد مفاتيح API للمستخدم وبصلاحيّة كتابة"
-    allow_push_user_api_keys: "السماح بتوليد مفاتيح API للمستخدم وبصلاحيّة دفع"
+    allow_user_api_key_scopes: "قائمة المجالات المسموحة من أجل مفاتيح الـ API الخاصّة بالمستخدم"
     max_api_keys_per_user: "الحدّ الأعلى من مفاتيح الـ API لكل مستخدم"
     min_trust_level_for_user_api_key: "مستوى الثقة المطلوب لتوليد مفاتيح API للمستخدم"
     allowed_user_api_auth_redirects: "المسارات المسموحة من أجل أعادة التوجيه الخاصّ بالمصادقة على مفاتيح الـ API الخاصّة بالمستخدم"
@@ -3037,35 +3025,6 @@ ar:
       إذا قمنا بتغيير سياسة الخصوصية، سوف نقوم بنشر هذه التغييرات في هذه الصفحة.
 
       هذه الوثيقة هي نسخة من CC-BY-SA تم تحديثها في 31 مايو عام 2013م .
-  static:
-    search_help: |
-      <h3>نصائح</h3>
-      <p>
-      <ul>
-        <li>مطابقات العنوان مرتّبة حسب الأهميّة &ndash; في حال الشكّ، ابحث عن العناوين</li>
-        <li>ستُظهر الكلمات غير الشائعة والفريدة نتائج أفضل</li>
-        <li>حاول تضييق دائرة البحث ضمن إطار معيّن إما تصنيف أو موضوع أو مستخدم</li>
-      </ul>
-      </p>
-      <h3>الخيارات</h3>
-      <p>
-        <table>
-        <tr><td><code>order:views</code></td><td><code>order:latest</code></td><td><code>order:likes</code></td><td><code>@username</code></td><td><code>user:foo</code></td></tr>
-        <tr><td><code>status:open</code></td><td><code>status:closed</code></td><td><code>status:archived</code></td><td><code>status:noreplies</code></td><td><code>status:single_user</code></td></tr>
-        <tr><td><code>#category-slug</code></td><td><code>category:foo</code></td><td><code>group:foo</code></td><td><code>badge:foo</code></td><td></td></tr>
-        <tr><td><code>in:likes</code></td><td><code>in:posted</code></td><td><code>in:watching</code></td><td><code>in:tracking</code></td><td><code>in:private</code></td></tr>
-        <tr><td><code>in:bookmarks</code></td><td><code>in:first</code></td><td><code>in:pinned</code></td><td><code>in:unpinned</code></td><td><code>in:wiki</code></td></tr>
-        <tr><td><code>posts_count:num</code></td><td><code>before:days or date</code></td><td><code>after:days or date</code></td><td><code>tags:one,two</code></td><td></td></tr>
-        </table>
-      </p>
-      <h3>أمثلة</h3>
-      <p>
-        <ul>
-          <li><code>قوس فزح #الشتاء</code> سيتم البحث عن المواضيع التي تحتوي الكلمة 'قوس فزح' في التصنيف 'الشتاء'.</li>
-          <li><code>قوس قزح category:الشتاء status:open order:latest</code> سيتم البحث عن المواضيع التي تحتوي الكلمة 'قوس فزح' في التصنيف 'الشتاء' إما في المواضيع المفتوحة أو المؤرشفة، مرتبة حسب تاريخ آخر مشاركة.</li>
-          <li><code>قوس قزح category:"الشتاء والصيف" in:bookmarks</code> سيتم البحث عن المواضيع التي تحتوي الكلمة 'قوس فزح' في التصنيف 'الشتاء والصيف' وموجودة في مفضلتك.</li>
-        </ul>
-      </p>
 
   badges:
     editor:
