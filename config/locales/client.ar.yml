@@ -3451,6 +3451,7 @@ ar:
           user_preferences: "تفضيلات المستخدم"
           tags: "الوسوم"
           search: "البحث"
+          groups: "المجموعات"
       badges:
         title: 'الأوسمة'
         new_badge: وسام جديد
